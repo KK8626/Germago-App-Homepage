@@ -5,27 +5,25 @@ body {
 
 h1 {
   font-weight: 900;
-  text-align: center;
 }
 
 h4 {
-    text-align: center;
-    margin: 20px auto;
+  margin: 15px auto;
 }
 
 .Blick-in-die-App {
-    width: 150px;
+  width: 150px;
 }
 
 .Artikel {
-    font-style: italic;
+  font-style: italic;
 }
 
 .registered-TM {
-font-size: 15px;
-font-weight: 900;
-position: relative;
-bottom: 14px;
+  font-size: 15px;
+  font-weight: 900;
+  position: relative;
+  bottom: 14px;
 }
 
 .Google-Play-Button {
