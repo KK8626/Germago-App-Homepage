@@ -13,19 +13,23 @@ h4 {
     margin: 20px auto;
 }
 
+.Screenshots-aus-der-App {
+    width: 150px;
+}
+
 .Artikel {
     font-style: italic;
 }
+
 .registered-TM {
 font-size: 15px;
 font-weight: 900;
 position: relative;
 bottom: 14px;
 }
+
 .Google-Play-Button {
   width: 150px;
   display: block;
   margin: 0 auto;
-
-  
 }
