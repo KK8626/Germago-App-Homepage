@@ -16,10 +16,21 @@ body {
 
 h1 {
   font-weight: 900;
+  font-size: 80px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 h4 {
   margin: 15px auto;
+  font-size: 30px;
+}
+
+.Blick-in-die-App {
+  max-width: 600px;
+}
+.introduction {
+  padding: 90px 0;
 }
 
 .Artikel {
@@ -27,14 +38,22 @@ h4 {
 }
 
 .registered-TM {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 900;
   position: relative;
-  bottom: 14px;
+  bottom: 33px;
 }
 
 .Google-Play-Button {
-  width: 150px;
+  width: 220px;
   display: block;
   margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .Blick-in-die-App {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+  }
 }
