@@ -31,6 +31,7 @@ h4 {
   display: block;
   margin: 0 auto;
 }
+
 .introduction {
   padding: 90px 0;
 }
@@ -39,16 +40,30 @@ h4 {
   font-style: italic;
 }
 
-.Trademark-Symbol {
+.Trademark-Symbol-h1 {
   font-size: 20px;
   position: relative;
   bottom: 40px;
 }
+
 .Google-Play-Button {
   width: 220px;
   display: block;
   margin: 0 auto;
 }
+
+.Trademark-Symbol-h4 {
+  font-size: 12px;
+  position: relative;
+  bottom: 13px;
+}
+
+.USP-screens {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 576px) {
   .Blick-in-die-App {
     display: block;
