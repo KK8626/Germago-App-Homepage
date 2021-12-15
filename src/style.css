@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-weight: 900;
-  font-size: 80px;
+  font-size: 75px;
   margin-top: 25px;
   margin-bottom: 20px;
 }
@@ -37,23 +37,43 @@ h4 {
   font-style: italic;
 }
 
-.registered-TM {
-  font-size: 30px;
-  font-weight: 900;
+.Trademark-Symbol {
+  font-size: 20px;
   position: relative;
-  bottom: 33px;
+  bottom: 35px;
 }
-
 .Google-Play-Button {
   width: 220px;
   display: block;
   margin: 0 auto;
 }
-@media (max-width: 576px) {
+@media (max-width: 760px) {
   .Blick-in-die-App {
-    max-width: 300px;
     display: block;
+    max-width: 320px;
+    padding: 0 auto;
     margin: 0 auto;
     margin-bottom: 20px !important;
   }
+
+  .introduction {
+    padding: 0 !important;
+  }
+  .introduction h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .introduction h1 {
+    font-size: 50px;
+  }
+  .introduction registered-TM {
+    font-size: -10px;
+    position: relative;
+    bottom: -20px;
+  }
+  .Trademark-Symbol {
+  font-size: 15px;
+  position: relative;
+  bottom: 25px;
+}
 }
