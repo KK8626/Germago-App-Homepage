@@ -28,6 +28,8 @@ h4 {
 
 .Blick-in-die-App {
   max-width: 600px;
+  display: block;
+  margin: 0 auto;
 }
 .introduction {
   padding: 90px 0;
@@ -47,13 +49,12 @@ h4 {
   display: block;
   margin: 0 auto;
 }
-@media (max-width: 760px) {
+@media (max-width: 576px) {
   .Blick-in-die-App {
     display: block;
-    max-width: 320px;
-    padding: 0 auto;
     margin: 0 auto;
-    margin-bottom: 20px !important;
+    max-width: 320px;
+    margin-bottom: 15px !important;
   }
 
   .introduction {
@@ -64,16 +65,18 @@ h4 {
     text-align: center;
   }
   .introduction h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
-  .introduction registered-TM {
-    font-size: -10px;
-    position: relative;
-    bottom: -20px;
-  }
+  
   .Trademark-Symbol {
-  font-size: 15px;
-  position: relative;
-  bottom: 25px;
+    font-size: 15px;
+    position: relative;
+    bottom: 23px;
+  }
+  .Google-Play-Button {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
 }
 }
+
