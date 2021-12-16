@@ -101,6 +101,30 @@ h4 {
 .underlined {
   text-decoration: underline;
 }
+.external-link {
+  text-decoration: none;
+  color: #5AA5E7;
+}
+
+.external-link:hover {
+  color: #4a87bd;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  background-color: #5AA5E7;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  transition: all 200ms ease-in-out;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #4a87bd;
+}
+
 
 @media (max-width: 576px) {
   .Blick-in-die-App {
