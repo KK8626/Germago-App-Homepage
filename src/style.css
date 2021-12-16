@@ -87,6 +87,19 @@ h4 {
   line-height: 1.5;
 }
 
+.USP-description-right {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 85px;
+}
+.USP-description-right h5 {
+  line-height: 1.5;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
 @media (max-width: 576px) {
   .Blick-in-die-App {
     display: block;
