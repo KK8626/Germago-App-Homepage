@@ -36,16 +36,16 @@ h4 {
   padding: 90px 0;
 }
 
-.Artikel {
+.italic {
   font-style: italic;
 }
 
-.Artikel-die-Singular {
+.text-red {
   font-style: italic;
   color: #E81224;
 }
 
-.Artikel-die-Plural {
+.text-yellow {
   font-style: italic;
   color: #fcb901;
 }
@@ -88,10 +88,11 @@ h4 {
 }
 
 .USP-description-right {
-  text-align: right;
-  margin-right: 20px;
-  margin-top: 85px;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 18px;
 }
+
 .USP-description-right h5 {
   line-height: 1.5;
 }
