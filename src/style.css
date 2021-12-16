@@ -42,7 +42,7 @@ h4 {
 
 .text-red {
   font-style: italic;
-  color: #E81224;
+  color: #e81224;
 }
 
 .text-yellow {
@@ -87,7 +87,6 @@ h4 {
   line-height: 1.5;
 }
 
-
 .USP-description-right {
   text-align: left;
   margin-top: 100px;
@@ -101,9 +100,10 @@ h4 {
 .underlined {
   text-decoration: underline;
 }
+
 .external-link {
   text-decoration: none;
-  color: #5AA5E7;
+  color: #5aa5e7;
 }
 
 .external-link:hover {
@@ -114,7 +114,7 @@ h4 {
   display: block;
   margin: 0 auto;
   max-width: 200px;
-  background-color: #5AA5E7;
+  background-color: #5aa5e7;
   color: var(--primary-color);
   font-weight: bold;
   font-family: "Lato", sans-serif;
@@ -125,8 +125,15 @@ h4 {
   background-color: #4a87bd;
 }
 
-
 @media (max-width: 576px) {
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+    text-align: left;
+  }
+
   .Blick-in-die-App {
     display: block;
     margin: 0 auto;
@@ -137,15 +144,12 @@ h4 {
   .introduction {
     padding: 0 !important;
   }
-  .introduction h4 {
-    font-size: 20px;
-    text-align: center;
-  }
+
   .introduction h1 {
     font-size: 48px;
   }
 
-  .Trademark-Symbol {
+  .Trademark-Symbol-h1 {
     font-size: 15px;
     position: relative;
     bottom: 23px;
@@ -154,5 +158,19 @@ h4 {
     width: 150px;
     display: block;
     margin: 0 auto;
+  }
+  .USP-introduction {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .Trademark-Symbol-h4 {
+    font-size: 9px;
+    position: relative;
+    bottom: 7px;
+  }
+
+  .USP-description-left br {
+    display: none;
   }
 }
