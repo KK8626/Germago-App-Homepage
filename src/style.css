@@ -33,7 +33,7 @@ h4 {
 }
 
 .introduction {
-  padding: 90px 0;
+  padding-top: 80px;
 }
 
 .italic {
@@ -80,7 +80,6 @@ h4 {
 
 .USP-description-left {
   margin-left: 18px;
-  margin-top: 70px;
 }
 
 .USP-description-left h5 {
@@ -89,7 +88,6 @@ h4 {
 
 .USP-description-right {
   text-align: left;
-  margin-top: 100px;
   margin-left: 20px;
 }
 
