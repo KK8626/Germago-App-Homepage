@@ -139,7 +139,7 @@ h4 {
   .Blick-in-die-App {
     display: block;
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 350px;
     margin-bottom: 15px !important;
   }
 
@@ -175,7 +175,7 @@ h4 {
   }
 
   .USP-screens-visible-sm {
-    max-width: 320px;
+    max-width: 350px;
     display: block;
     margin: 0 auto;
   }
@@ -187,7 +187,7 @@ h4 {
   .USP-description-left,
   .USP-description-right {
     margin-top: 25px;
-    max-width: 320px;
+    max-width: 350px;
     display: block;
   }
 
