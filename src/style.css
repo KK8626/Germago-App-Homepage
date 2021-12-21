@@ -140,7 +140,6 @@ h4 {
   color: #4a87bd;
 }
 
-
 @media (max-width: 576px) {
   h4 {
     font-size: 18px;
@@ -217,8 +216,8 @@ h4 {
   .centered {
     text-align: center;
   }
-  .icons img{
-    max-width: 60px;
+  .icons img {
+    max-width: 50px;
     margin: 5px !important;
   }
   .contact-link {
