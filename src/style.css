@@ -125,7 +125,7 @@ h4 {
   background-color: #4a87bd;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   h4 {
     font-size: 18px;
     padding: 3px;
@@ -157,8 +157,9 @@ h4 {
     position: relative;
     bottom: 21px;
   }
+
   .Google-Play-Button {
-    width: 150px;
+    width: 200px;
     display: block;
     margin: 0 auto;
   }
@@ -172,6 +173,13 @@ h4 {
     position: relative;
     bottom: 7px;
   }
+
+  .USP-screens-visible-sm {
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .USP-Überschrift {
     text-align: center;
   }
@@ -179,6 +187,7 @@ h4 {
   .USP-description-left,
   .USP-description-right {
     margin-top: 25px;
+    max-width: 320px;
   }
 
   .USP-description-left br {
@@ -188,10 +197,7 @@ h4 {
   .USP-description-right br {
     display: none;
   }
-
-  .USP-screens-visible-sm {
-    max-width: 320px;
-    display: block;
-    margin: 0 auto;
+  .centered {
+    text-align: center;
   }
 }
