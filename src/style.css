@@ -103,6 +103,8 @@ h4 {
   width: 120px;
   background: #5aa5e7;
   color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+
 }
 .button-der:hover {
   background-color: #4a87bd;
@@ -112,6 +114,7 @@ h4 {
   width: 120px;
   background: #e64747 !important;
   color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 .button-die:hover {
   background-color: #be3838 !important;
@@ -121,6 +124,7 @@ h4 {
   width: 120px;
   background: #75c26f !important;
   color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 
 .button-das:hover {
