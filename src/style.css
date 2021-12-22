@@ -104,7 +104,6 @@ h4 {
   background: #5aa5e7;
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
-
 }
 .button-der:hover {
   background-color: #4a87bd;
