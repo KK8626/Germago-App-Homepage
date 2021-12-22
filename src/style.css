@@ -140,7 +140,7 @@ h4 {
   color: #4a87bd;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   h4 {
     font-size: 18px;
     padding: 3px;
@@ -197,13 +197,15 @@ h4 {
 
   .USP-Überschrift {
     text-align: center !important;
+    margin-top: 15px !important;
   }
 
   .USP-description-left,
   .USP-description-right {
-    margin-top: 25px;
+    margin-top: 20px;
     max-width: 350px;
     display: block;
+    margin: 0 auto;
   }
 
   .USP-description-left br {
@@ -213,6 +215,12 @@ h4 {
   .USP-description-right br {
     display: none;
   }
+  .lines {
+    max-width: 430px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .centered {
     text-align: center;
   }
