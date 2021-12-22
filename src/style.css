@@ -99,6 +99,34 @@ h4 {
   text-decoration: underline;
 }
 
+.button-der {
+  width: 120px;
+  background: #5aa5e7;
+  color: var(--primary-color);
+}
+.button-der:hover {
+  background-color: #4a87bd;
+}
+
+.button-die {
+  width: 120px;
+  background: #e64747 !important;
+  color: var(--primary-color);
+}
+.button-die:hover {
+  background-color: #be3838 !important;
+}
+
+.button-das {
+  width: 120px;
+  background: #75c26f !important;
+  color: var(--primary-color);
+}
+
+.button-das:hover {
+  background-color: #61a55c !important;
+}
+
 .external-link {
   text-decoration: none;
   color: #5aa5e7;
