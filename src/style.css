@@ -171,6 +171,32 @@ h4 {
   color: #4a87bd;
 }
 
+.faq-heading {
+  margin-top: 100px;
+  text-align: center;
+}
+.faq-heading h1 {
+  margin-bottom: 5px !important;
+}
+
+.faq-content-section {
+  margin: 30px 120px;
+}
+
+.faq-content-section h4 {
+  font-weight: bold;
+}
+.faq-contact-link {
+  font-size: 1.25rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #5aa5e7;
+}
+.faq-contact-link:hover {
+  color: #4a87bd;
+}
+
 @media (max-width: 992px) {
   h4 {
     font-size: 18px;
