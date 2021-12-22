@@ -17,16 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="/src/style.css" class="css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://kit.fontawesome.com/30a235d772.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -198,9 +199,55 @@
                 des Nomens passt:
               </h5>
               <h5 class="centered">
-                <div><span class="italic">der</span> = <button class="button-der btn btn-primary d-inline mb-2 ms-2 shadow rounded">👨  der Mann</button></div>
-                <div><span class="italic">die</span> = <button class="button-die btn btn-primary d-inline mb-2 ms-2 shadow rounded">👩  die Frau</button></div>
-                <div><span class="italic">das</span> = <audio id="dasKind" src="/audios/das Kind.mp3"></audio><button class="button-das btn btn-primary d-inline ms-1 shadow rounded" onclick="document.getElementById('dasKind').play();">🧒  das Kind</button></div>
+                <div>
+                  <span class="italic">der</span> =
+                  <button
+                    class="
+                      button-der
+                      btn btn-primary
+                      d-inline
+                      mb-2
+                      ms-2
+                      shadow
+                      rounded
+                    "
+                  >
+                    👨 der Mann
+                  </button>
+                </div>
+                <div>
+                  <span class="italic">die</span> =
+                  <button
+                    class="
+                      button-die
+                      btn btn-primary
+                      d-inline
+                      mb-2
+                      ms-2
+                      shadow
+                      rounded
+                    "
+                  >
+                    👩 die Frau
+                  </button>
+                </div>
+                <div>
+                  <span class="italic">das</span> =
+                  <audio id="dasKind" src="/audios/das Kind.mp3"></audio
+                  ><button
+                    class="
+                      button-das
+                      btn btn-primary
+                      d-inline
+                      ms-1
+                      shadow
+                      rounded
+                    "
+                    onclick="document.getElementById('dasKind').play();"
+                  >
+                    🧒 das Kind
+                  </button>
+                </div>
               </h5>
               <h5>
                 Alle drei Personen sind Muttersprachler und sprechen langsam und
@@ -296,32 +343,34 @@
       <h5 class="fw-bold text-center">Folge uns auf:</h5>
       <div class="icons">
         <a href="https://www.instagram.com/" target="_blank">
-        <img
-          src="/images/Instagram-icon.png"
-          class="m-3"
-          title="Follow GERMAGO-App on Instagram - GERMAGO-App"
-          width="120px"
-          alt="Follow GERMAGO-App on Instagram"
-        />
+          <img
+            src="/images/Instagram-icon.png"
+            class="m-3"
+            title="Follow GERMAGO-App on Instagram - GERMAGO-App"
+            width="120px"
+            alt="Follow GERMAGO-App on Instagram"
+          />
         </a>
         <a href="https://www.facebook.com/" target="_blank">
-        <img
-          src="/images/Facebook-icon.png"
-          class="m-3"
-          title="Follow GERMAGO-App on Facebook - GERMAGO-App"
-          width="120px"
-          alt="Follow GERMAGO-App on Facebook"
-        />
+          <img
+            src="/images/Facebook-icon.png"
+            class="m-3"
+            title="Follow GERMAGO-App on Facebook - GERMAGO-App"
+            width="120px"
+            alt="Follow GERMAGO-App on Facebook"
+          />
         </a>
       </div>
       <a class="contact-link" href="mailto:kontakt@germago-app.com"
         >kontakt@germago-app.com</a
       >
     </div>
-    <br>
-    <br>
-    <p class="Copyright text-center">&#169 2022 Copyright GERMAGO-App. All rights reserved.</p>
-    <hr>
+    <br />
+    <br />
+    <p class="Copyright text-center">
+      © 2021 Copyright GERMAGO-App. All rights reserved.
+    </p>
+    <hr />
     <footer>
       <p class="text-center">Impressum | Datenschutz</p>
     </footer>
