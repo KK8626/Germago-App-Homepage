@@ -140,6 +140,7 @@ h5 {
 
 .external-link:hover {
   color: #4a87bd;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -176,6 +177,7 @@ h5 {
 }
 .contact-link:hover {
   color: #4a87bd;
+  text-decoration: none;
 }
 
 .faq-heading {
@@ -197,10 +199,6 @@ h5 {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: bold;
-  padding-left: 15px;
-}
-.card-body {
-  padding-left: 28px;
 }
 
 .faq-contact-link {
@@ -212,6 +210,7 @@ h5 {
 }
 .faq-contact-link:hover {
   color: #4a87bd;
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {
