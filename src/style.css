@@ -233,7 +233,7 @@ h5 {
   }
 
   .introduction {
-    padding: 0 !important;
+    margin: 0 !important;
   }
 
   .introduction h1 {
@@ -290,6 +290,10 @@ h5 {
     display: none;
   }
 
+  .button-das {
+    margin-bottom: 0 !important;
+  }
+
   .lines {
     max-width: 430px;
     display: block;
@@ -302,7 +306,7 @@ h5 {
   }
 
   .contact-link {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
   }
 
