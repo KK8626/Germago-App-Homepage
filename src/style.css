@@ -26,6 +26,10 @@ h4 {
   font-size: 30px;
 }
 
+h5 {
+  font-size: 20px;
+}
+
 .Blick-in-die-App {
   max-width: 600px;
   display: block;
@@ -33,7 +37,7 @@ h4 {
 }
 
 .introduction {
-  padding-top: 80px;
+  margin-top: 50px;
 }
 
 .italic {
@@ -68,18 +72,18 @@ h4 {
   bottom: 13px;
 }
 
-.USP-Überschrift {
-  margin-top: 0px;
+.USP-introduction {
+  margin: 70px 0;
 }
 
 .USP-screens-visible-md {
-  width: 600px;
+  width: 550px;
   display: block;
   margin: 0 auto;
 }
 
 .USP-description-left {
-  margin-left: 18px;
+  margin-left: 8px;
 }
 
 .USP-description-left h5 {
@@ -87,8 +91,7 @@ h4 {
 }
 
 .USP-description-right {
-  text-align: left;
-  margin-left: 20px;
+  margin-left: 8px;
 }
 
 .USP-description-right h5 {
@@ -142,7 +145,7 @@ h4 {
 .btn-primary {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 150px;
   background-color: #5aa5e7;
   color: var(--primary-color);
   font-weight: bold;
@@ -160,8 +163,12 @@ h4 {
   text-align: center;
 }
 
+.icons img {
+  width: 40px;
+}
+
 .contact-link {
-  font-size: 1.25rem;
+  font-size: 18px;
   text-align: center;
   display: block;
   text-decoration: none;
@@ -196,11 +203,8 @@ h4 {
   padding-left: 28px;
 }
 
-
-
-
 .faq-contact-link {
-  font-size: 1.25rem;
+  font-size: 20px;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -209,7 +213,6 @@ h4 {
 .faq-contact-link:hover {
   color: #4a87bd;
 }
-
 
 @media (max-width: 992px) {
   h4 {
@@ -286,26 +289,27 @@ h4 {
   .USP-description-right br {
     display: none;
   }
+
   .lines {
     max-width: 430px;
     display: block;
     margin: 0 auto;
   }
 
-  .centered {
-    text-align: center;
-  }
   .icons img {
     max-width: 50px;
     margin: 5px !important;
   }
+
   .contact-link {
     font-size: 18px;
     margin-top: 10px;
   }
+
   .Copyright {
     font-size: 13px;
   }
+
   footer p {
     font-size: 13px;
   }
