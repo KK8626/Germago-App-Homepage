@@ -12,18 +12,6 @@ body {
     #f3f4f4 58.33%,
     #eaf3ff 100%
   );
-  
-}
-.body-faq {
-  margin: 0;
-  font-family: "Lato", sans-serif;
-  color: var(--primary-color);
-  background: linear-gradient(
-    180deg,
-    #ffffff 9.9%,
-    #f3f4f4 58.33%,
-    #eaf3ff 100%
-  );
 }
 
 h1 {
@@ -187,36 +175,27 @@ h5 {
   text-decoration: none;
   color: #5aa5e7;
 }
+
 .contact-link:hover {
   color: #4a87bd;
   text-decoration: none;
 }
-.container-header {
-  position: relative;
-  text-align: center;
-  color: var(--primary-color);
-}
-.container-header img {
-  opacity: 0.8;
-}
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.faq-content-section {
+.panel-group {
   margin: 30px 190px;
 }
 
-.faq-content-section h4 {
+.panel-group h4 {
   font-weight: bold;
 }
 .btn-link {
   text-decoration: none;
   color: var(--primary-color);
+  font-weight: bold;
+}
+
+.faq-header {
+  text-align: center;
   font-weight: bold;
 }
 
@@ -233,6 +212,19 @@ h5 {
 }
 
 @media (max-width: 992px) {
+  h1 {
+    font-size: 45px;
+    padding: 10px;
+  }
+  .faq-header h1 {
+    margin-bottom: 0;
+  }
+  .faq-header h2 {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 25px;
+  }
   h4 {
     font-size: 18px;
     padding: 3px;
@@ -252,11 +244,6 @@ h5 {
 
   .introduction {
     margin: 0 !important;
-  }
-
-  .introduction h1 {
-    font-size: 45px;
-    padding: 10px;
   }
 
   .Trademark-Symbol-h1 {
@@ -320,6 +307,19 @@ h5 {
     margin: 0 auto;
   }
 
+  .panel-group {
+    margin: 0 20px;
+  }
+
+  .panel-Überschrift {
+    text-align: center;
+  }
+.panel-title {
+  font-size: 15px;
+}
+.panel-body {
+  font-size: 13px;
+}
   .icons img {
     max-width: 50px;
     margin: 5px !important;
@@ -328,6 +328,9 @@ h5 {
   .contact-link {
     font-size: 16px;
     margin-top: 10px;
+  }
+  .faq-contact-link {
+    font-size: 16px;
   }
 
   .Copyright {
