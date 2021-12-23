@@ -289,7 +289,9 @@ h5 {
   .USP-description-right br {
     display: none;
   }
-
+  .button-der {
+    margin-top: 0 !important;
+  }
   .button-das {
     margin-bottom: 0 !important;
   }
