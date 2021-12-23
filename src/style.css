@@ -186,6 +186,19 @@ h4 {
 .faq-content-section h4 {
   font-weight: bold;
 }
+.btn-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding-left: 15px;
+}
+.card-body {
+  padding-left: 28px;
+}
+
+
+
+
 .faq-contact-link {
   font-size: 1.25rem;
   display: block;
@@ -196,6 +209,7 @@ h4 {
 .faq-contact-link:hover {
   color: #4a87bd;
 }
+
 
 @media (max-width: 992px) {
   h4 {
