@@ -12,6 +12,18 @@ body {
     #f3f4f4 58.33%,
     #eaf3ff 100%
   );
+  
+}
+.body-faq {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+  background: linear-gradient(
+    180deg,
+    #ffffff 9.9%,
+    #f3f4f4 58.33%,
+    #eaf3ff 100%
+  );
 }
 
 h1 {
@@ -179,17 +191,24 @@ h5 {
   color: #4a87bd;
   text-decoration: none;
 }
-
-.faq-heading {
-  margin-top: 100px;
+.container-header {
+  position: relative;
   text-align: center;
+  color: var(--primary-color);
 }
-.faq-heading h1 {
-  margin-bottom: 5px !important;
+.container-header img {
+  opacity: 0.8;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .faq-content-section {
-  margin: 30px 120px;
+  margin: 30px 190px;
 }
 
 .faq-content-section h4 {
