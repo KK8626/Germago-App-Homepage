@@ -188,6 +188,29 @@ h5 {
 .panel-group h4 {
   font-weight: bold;
 }
+.panel-default-blue {
+  background: #5aa5e7;
+  border: 1px solid #DDDDDD;
+}
+
+.panel-default-red {
+  background: #be3838;
+  border: 1px solid #DDDDDD;
+}
+
+.panel-default-green {
+  background: #61a55c;
+  border: 1px solid #DDDDDD;
+}
+.panel-default-yellow {
+  background: #FFF04D;
+  border: 1px solid #DDDDDD;
+}
+
+.panel-body {
+  background: #FFFFFF;
+}
+
 .btn-link {
   text-decoration: none;
   color: var(--primary-color);
@@ -311,15 +334,12 @@ h5 {
     margin: 0 20px;
   }
 
-  .panel-Überschrift {
-    text-align: center;
+  .panel-title {
+    font-size: 15px;
   }
-.panel-title {
-  font-size: 15px;
-}
-.panel-body {
-  font-size: 13px;
-}
+  .panel-body {
+    font-size: 13px;
+  }
   .icons img {
     max-width: 50px;
     margin: 5px !important;
