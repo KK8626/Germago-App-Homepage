@@ -388,6 +388,25 @@ h5 {
   .wrapper {
     margin-top: 90px;
   }
+  .navbar-nav a {
+    margin-left: 17px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: var(--primary-color);
+  }
+  
+.navbar-nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4a87bd !important;
+}
+
+.navbar-nav a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4a87bd !important;
+}
+
   footer p {
     font-size: 13px;
   }
