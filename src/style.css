@@ -15,6 +15,15 @@ body {
 .navbar-light {
   background: #EAF3FE;
 }
+.navbar-nav a {
+  margin-top: 12px;
+  margin-right: 20px;
+  color: var(--primary-color);
+}
+.navbar-nav a:hover {
+  text-decoration: none;
+  color: #4a87bd !important;
+}
 
 h1 {
   font-weight: 900;
