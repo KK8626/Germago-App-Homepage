@@ -29,6 +29,9 @@ body {
   margin-top: 120px;
 }
 
+.Logo {
+}
+
 h1 {
   font-weight: 900;
   font-size: 75px;
@@ -346,7 +349,9 @@ h5 {
   }
 
   .panel-group {
-    margin: 0 20px;
+    margin: 0 auto;
+    max-width: 350px;
+    display: block;
   }
 
   .panel-title {
@@ -371,6 +376,10 @@ h5 {
   .Copyright {
     font-size: 13px;
   }
+  .navbar-brand img {
+    max-height: 22px;
+  }
+  
 
   footer p {
     font-size: 13px;
