@@ -190,25 +190,25 @@ h5 {
 }
 .panel-default-blue {
   background: #5aa5e7;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
 }
 
 .panel-default-red {
   background: #be3838;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
 }
 
 .panel-default-green {
   background: #61a55c;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
 }
 .panel-default-yellow {
-  background: #FFF04D;
-  border: 1px solid #DDDDDD;
+  background: #fff04d;
+  border: 1px solid #dddddd;
 }
 
 .panel-body {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .btn-link {
