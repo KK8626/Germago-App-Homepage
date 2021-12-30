@@ -266,6 +266,9 @@ nav li.active a {
   color: #4a87bd;
   font-weight: bold;
 }
+footer {
+  
+}
 
 @media (max-width: 992px) {
   h1 {
