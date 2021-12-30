@@ -233,7 +233,7 @@ h5 {
   text-decoration: none;
 }
 
-.logo {
+.logo-large {
   max-height: 35px;
 }
 
@@ -391,11 +391,20 @@ nav li.active a {
   .Copyright {
     font-size: 13px;
   }
-  
- .wrapper {
-   margin-top: 0px;
- }
-  
+
+  .wrapper {
+    margin-top: 0px;
+  }
+  nav {
+    padding-top: 8px;
+  }
+  .logo-small {
+    max-height: 30px;
+    margin-top: 6px;
+  }
+  nav a {
+    font-size: 14px;
+  }
 
   footer p {
     font-size: 13px;
