@@ -145,6 +145,10 @@ h5 {
   color: #4a87bd;
   text-decoration: none;
 }
+.external-link:visited {
+  text-decoration: none;
+  color: #5aa5e7;
+}
 
 .btn-primary {
   display: block;
@@ -159,6 +163,11 @@ h5 {
 }
 .btn-primary:hover {
   background-color: #4a87bd;
+}
+
+.btn-primary:visited {
+  background-color: #5aa5e7;
+  color: var(--primary-color);
 }
 
 .icons {
@@ -181,7 +190,26 @@ h5 {
 
 .contact-link:hover {
   color: #4a87bd;
+  text-decoration: none !important;
+}
+.contact-link:visited {
   text-decoration: none;
+  color: #5aa5e7;
+}
+
+.contact-me-link {
+  text-decoration: none;
+  color: #5aa5e7;
+}
+
+.contact-me-link:hover {
+  color: #4a87bd;
+  text-decoration: none !important;
+}
+
+.contact-me-link:visited {
+  text-decoration: none !important;
+  color: #5aa5e7 !important;
 }
 
 .panel-group h4 {
@@ -265,9 +293,6 @@ nav li.active a {
   text-decoration: none;
   color: #4a87bd;
   font-weight: bold;
-}
-footer {
-  
 }
 
 @media (max-width: 992px) {
@@ -411,5 +436,8 @@ footer {
 
   footer p {
     font-size: 13px;
+  }
+  .contact h5 {
+    margin-bottom: 15px !important;
   }
 }
