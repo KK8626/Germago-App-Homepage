@@ -59,6 +59,10 @@ h5 {
   font-size: 20px;
 }
 
+.logo-large {
+  max-height: 35px;
+}
+
 .wrapper {
   margin-top: 40px;
 }
@@ -227,10 +231,10 @@ h5 {
   text-decoration: none !important;
 }
 
-
 .panel-group h4 {
   font-weight: bold;
 }
+
 .panel-default-blue {
   background: #5aa5e7;
   border: 1px solid #dddddd;
@@ -245,6 +249,7 @@ h5 {
   background: #61a55c;
   border: 1px solid #dddddd;
 }
+
 .panel-default-yellow {
   background: #fff04d;
   border: 1px solid #dddddd;
@@ -254,17 +259,6 @@ h5 {
   background: #ffffff;
 }
 
-.btn-link {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.faq-header {
-  text-align: center;
-  font-weight: bold;
-}
-
 .faq-contact-link {
   font-size: 20px;
   display: block;
@@ -272,37 +266,48 @@ h5 {
   text-decoration: none;
   color: #5aa5e7;
 }
+
 .faq-contact-link:hover {
   color: #4a87bd;
   text-decoration: none;
 }
 
-.logo-large {
-  max-height: 35px;
-}
-
 @media (max-width: 992px) {
+  nav {
+    padding-top: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
   h1 {
     font-size: 45px;
     padding: 10px;
   }
-  .faq-header h1 {
-    margin-bottom: 0;
-  }
-  .faq-header h2 {
-    margin-top: 0;
-  }
+
   h2 {
     font-size: 25px;
   }
+
   h4 {
     font-size: 18px;
     padding: 3px;
   }
+
   h5 {
     font-size: 16px;
     padding: 3px;
     text-align: left;
+  }
+
+  .logo-small {
+    max-height: 30px;
+    margin-top: 6px;
+  }
+
+  .wrapper {
+    margin-top: 0px;
   }
 
   .hero-image {
@@ -345,6 +350,12 @@ h5 {
     margin: 0 auto;
   }
 
+  .lines {
+    max-width: 430px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .USP-Überschrift {
     text-align: center !important;
     margin-top: 15px !important;
@@ -365,17 +376,28 @@ h5 {
   .USP-description-right br {
     display: none;
   }
-  .button-der {
+
+  .button-der,
+  .button-das {
     margin-top: 0 !important;
   }
-  .button-das {
-    margin-bottom: 0 !important;
+
+  .icons img {
+    max-width: 50px;
+    margin: 5px !important;
   }
 
-  .lines {
-    max-width: 430px;
-    display: block;
-    margin: 0 auto;
+  .contact h5 {
+    margin-bottom: 15px !important;
+  }
+
+  .contact-link {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .Copyright {
+    font-size: 13px;
   }
 
   .panel-group {
@@ -390,41 +412,8 @@ h5 {
   .panel-body {
     font-size: 13px;
   }
-  .icons img {
-    max-width: 50px;
-    margin: 5px !important;
-  }
 
-  .contact-link {
-    font-size: 16px;
-    margin-top: 10px;
-  }
   .faq-contact-link {
     font-size: 16px;
-  }
-
-  .Copyright {
-    font-size: 13px;
-  }
-
-  .wrapper {
-    margin-top: 0px;
-  }
-  nav {
-    padding-top: 10px;
-  }
-  .logo-small {
-    max-height: 30px;
-    margin-top: 6px;
-  }
-  nav a {
-    font-size: 14px;
-  }
-
-  footer p {
-    font-size: 13px;
-  }
-  .contact h5 {
-    margin-bottom: 15px !important;
   }
 }
