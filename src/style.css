@@ -13,8 +13,34 @@ body {
   );
 }
 
-.wrapper {
-  margin-top: 40px;
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  color: var(--primary-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  text-decoration: none;
+  color: #4a87bd;
+  font-weight: bold;
 }
 
 h1 {
@@ -33,6 +59,10 @@ h5 {
   font-size: 20px;
 }
 
+.wrapper {
+  margin-top: 40px;
+}
+
 .hero-image {
   max-width: 600px;
   display: block;
@@ -47,16 +77,6 @@ h5 {
   font-style: italic;
 }
 
-.text-red {
-  font-style: italic;
-  color: #e81224;
-}
-
-.text-yellow {
-  font-style: italic;
-  color: #fcb901;
-}
-
 .Trademark-Symbol-h1 {
   font-size: 20px;
   position: relative;
@@ -69,20 +89,14 @@ h5 {
   margin: 0 auto;
 }
 
-.Trademark-Symbol-h4 {
-  font-size: 12px;
-  position: relative;
-  bottom: 13px;
-}
-
 .content-introduction {
   margin: 70px 0;
 }
 
-.USP-screens-visible-md {
-  width: 550px;
-  display: block;
-  margin: 0 auto;
+.Trademark-Symbol-h4 {
+  font-size: 12px;
+  position: relative;
+  bottom: 13px;
 }
 
 .USP-description-left {
@@ -91,6 +105,22 @@ h5 {
 
 .USP-description-left h5 {
   line-height: 1.5;
+}
+
+.text-red {
+  font-style: italic;
+  color: #e81224;
+}
+
+.text-yellow {
+  font-style: italic;
+  color: #fcb901;
+}
+
+.USP-screens-visible-md {
+  width: 550px;
+  display: block;
+  margin: 0 auto;
 }
 
 .USP-description-right {
@@ -111,6 +141,7 @@ h5 {
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
 }
+
 .button-der:hover {
   background-color: #4a87bd;
 }
@@ -121,6 +152,7 @@ h5 {
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
 }
+
 .button-die:hover {
   background-color: #be3838 !important;
 }
@@ -145,10 +177,6 @@ h5 {
   color: #4a87bd;
   text-decoration: none;
 }
-.external-link:visited {
-  text-decoration: none;
-  color: #5aa5e7;
-}
 
 .btn-primary {
   display: block;
@@ -161,13 +189,9 @@ h5 {
   transition: all 200ms ease-in-out;
   border: none;
 }
+
 .btn-primary:hover {
   background-color: #4a87bd;
-}
-
-.btn-primary:visited {
-  background-color: #5aa5e7;
-  color: var(--primary-color);
 }
 
 .icons {
@@ -192,25 +216,17 @@ h5 {
   color: #4a87bd;
   text-decoration: none !important;
 }
-.contact-link:visited {
+
+.developer-link {
   text-decoration: none;
   color: #5aa5e7;
 }
 
-.contact-me-link {
-  text-decoration: none;
-  color: #5aa5e7;
-}
-
-.contact-me-link:hover {
+.developer-link:hover {
   color: #4a87bd;
   text-decoration: none !important;
 }
 
-.contact-me-link:visited {
-  text-decoration: none !important;
-  color: #5aa5e7 !important;
-}
 
 .panel-group h4 {
   font-weight: bold;
@@ -265,36 +281,6 @@ h5 {
   max-height: 35px;
 }
 
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-  color: var(--primary-color);
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--primary-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  text-decoration: none;
-  color: #4a87bd;
-  font-weight: bold;
-}
-
 @media (max-width: 992px) {
   h1 {
     font-size: 45px;
@@ -341,6 +327,7 @@ nav li.active a {
     display: block;
     margin: 0 auto;
   }
+
   .content-introduction {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
